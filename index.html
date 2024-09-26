@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Assignment # 1</title>
+</head>
+<body>
+    <div class="main" id="topic">
+        <nav class="nav--main">
+            <div class="heading"><h1>Web Engineering</h1></div>
+           <div class="topics">
+            <a href="#Topic1">Headings</a>
+            <a href="#topic2">Tables</a>
+            <a href="#topic3">Anchor Tag</a>
+            <a href="#topic4">Forms</a>
+            <a href="#topic5">Feedback</a>
+           </div>
+           
+        </nav>
+        <hr>
+        <div class="hero">
+            <div class="data">
+                <h2>Assignment # 1:</h2>
+                <p>In this assignment i have created a website which includes all the concepts that we have learnt so far in class</p>
+            </div>
+            <div class="data">
+                <h2>It includes:</h2>
+                <ol>
+                    <li>Heading tags</li>
+                    <li>Table tags</li>
+                    <li>Anchor tags</li>
+                    <li>forms</li>
+                    <li>Attributes</li>
+                </ol>
+            </div>    
+        
+        </div>
+        <section id="Topic1">
+            <h1>Understanding Heading Tags</h1>
+
+            <div class="headin--data">
+                <div class="data1">
+                    <h2>1. Hierarchy and Structure</h2>
+                    <p>Heading tags are essential for organizing content on a webpage:</p>
+                    <ul>
+                        <li><strong>&lt;h1&gt;</strong>: Main title of the page. Only one per page.</li>
+                        <li><strong>&lt;h2&gt;</strong>: Subheadings for main sections under the <code>&lt;h1&gt;</code>.</li>
+                        <li><strong>&lt;h3&gt; to &lt;h6&gt;</strong>: Further subdivisions for detailed sections.</li>
+                    </ul>
+                </div>
+    
+                <div class="data1">
+                    <h2>2. SEO Benefits</h2>
+                    <p>Proper use of headings can improve your SEO:</p>
+                    <ul>
+                        <li>Search engines index content using heading tags.</li>
+                        <li>Keywords in <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> tags can enhance visibility.</li>
+                    </ul>
+                </div>
+    
+                <div class="data1">
+                    <h2>3. Accessibility</h2>
+                    <p>Heading tags improve navigation for users with disabilities:</p>
+                    <ul>
+                        <li>Screen readers utilize headings to help navigate content.</li>
+                        <li>Logical order enhances user experience.</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Conclusion</h2>
+            <p>Using heading tags effectively can enhance the readability, accessibility, and SEO of your content, benefiting both users and search engines.</p>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <!-- section 1 ends hare -->
+        
+        <section id="topic2">
+            <h1>HTML Table Overview</h1>
+
+            <table>
+                <caption>Key Information about HTML Tables</caption>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Structure</td>
+                        <td>Tables are defined using <code>&lt;table&gt;</code>, with rows (<code>&lt;tr&gt;</code>), headers (<code>&lt;th&gt;</code>), and data cells (<code>&lt;td&gt;</code>).</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Syntax</td>
+                        <td>A simple table structure includes <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and data rows.</td>
+                    </tr>
+                    <tr>
+                        <td>Common Attributes</td>
+                        <td><code>border</code>, <code>cellpadding</code>, <code>cellspacing</code>, <code>colspan</code>, <code>rowspan</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Accessibility</td>
+                        <td>Use <code>&lt;caption&gt;</code> for titles, and <code>&lt;th&gt;</code> for headers, with <code>scope</code> attributes for clarity.</td>
+                    </tr>
+                    <tr>
+                        <td>Best Practices</td>
+                        <td>Use <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code> for grouping; avoid using tables for layout.</td>
+                    </tr>
+                    <tr>
+                        <td>Styling</td>
+                        <td>Style tables with CSS for better visual appeal, using properties like <code>border-collapse</code>, <code>padding</code>, and <code>background-color</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Responsive Design</td>
+                        <td>Make tables responsive using CSS techniques or convert to card layouts on smaller screens.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+        <!-- section 2 ends hare -->
+
+        <section id="topic3">
+            <h1>HTML Anchor Tags Overview</h1>
+            <table>
+                <caption>Key Information about Anchor Tags</caption>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Definition</td>
+                        <td>Anchor tags (<code>&lt;a&gt;</code>) are used to create hyperlinks for navigation.</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Syntax</td>
+                        <td>The basic format is <code>&lt;a href="URL"&gt;Link Text&lt;/a&gt;</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Common Attributes</td>
+                        <td>Attributes include <code>href</code>, <code>target</code>, <code>title</code>, <code>rel</code>, and <code>download</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Internal Links</td>
+                        <td>Link to sections within the same page using an ID (e.g., <code>&lt;a href="#section1"&gt;Go to Section 1&lt;/a&gt;</code>).</td>
+                    </tr>
+                    <tr>
+                        <td>External Links</td>
+                        <td>Link to external sites using a full URL (e.g., <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code>).</td>
+                    </tr>
+                    <tr>
+                        <td>Best Practices</td>
+                        <td>Use descriptive text, avoid <code>#</code> alone, and use <code>rel</code> for security on external links.</td>
+                    </tr>
+                    <tr>
+                        <td>Example</td>
+                        <td>Example of an internal link: <code><a href="#topic">HOMEPAGE</a></code> and an externalink: <code><a href="https://awaisfatehali.github.io/Awais_Portfolio_landing_page/" target="_blank">Portfolio</a></code>.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+
+        <!-- section 3 ends hare -->
+
+        <section id="topic4">
+            <h1>HTML Forms Overview</h1>
+            <table>
+                <caption>Key Information about HTML Forms</caption>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Definition</td>
+                        <td>Forms are used to collect user input and send data to a server.</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Structure</td>
+                        <td>A form is created using the <code>&lt;form&gt;</code> element, which contains various input elements.</td>
+                    </tr>
+                    <tr>
+                        <td>Common Input Types</td>
+                        <td>Common types include <code>text</code>, <code>password</code>, <code>email</code>, <code>number</code>, <code>checkbox</code>, and <code>radio</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Form Attributes</td>
+                        <td>Important attributes include <code>action</code> (URL to send data), <code>method</code> (GET or POST), and <code>enctype</code> (encoding type).</td>
+                    </tr>
+                    <tr>
+                        <td>Labels</td>
+                        <td>Use <code>&lt;label&gt;</code> elements for accessibility, associating them with input fields using the <code>for</code> attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>Submission</td>
+                        <td>Forms can be submitted using a <code>&lt;button&gt;</code> or an <code>&lt;input type="submit"&gt;</code>.</td>
+                    </tr>
+                    <tr>
+                        <td>Validation</td>
+                        <td>HTML5 provides built-in validation attributes like <code>required</code>, <code>minlength</code>, and <code>pattern</code>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- section 4 ends hare -->
+
+        <section id="topic5">
+            <h1>Website Feedback Form</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="64df125a-d1c6-4c95-99fb-a597b5816463">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+                <br>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                <br>
+                <label for="rating">Rate our website:</label>
+                <label for="excellent">Excellent</label>
+                <input type="radio" id="excellent" name="rating" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="average">Average</label>
+                <input type="radio" id="average" name="rating" value="average">
+                <label for="poor">Poor</label>
+                <input type="radio" id="poor" name="rating" value="poor">
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 All rights reserved to Awais Fate Ali, Roll # BSF2201540</p>
+    </footer>
+</body>
+</html>
