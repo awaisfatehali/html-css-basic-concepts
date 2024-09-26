@@ -121,6 +121,7 @@ table{
     text-align: center;
     border: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s all ease;
 }
 table:hover{
     background-color: white;
